@@ -1,0 +1,15 @@
+<div id="showcase1-container">
+  <div class="showcase">
+    <div class="subColContiners">
+      <span class="num number{{ this.index.i + 1}}"> {{ this.index.i + 1}}</span>
+      <img class="showcase1pic" src='{{this.showcase1.item.image}}'>
+    </div>
+    <div class="subColContiners">
+      <div class="feature-text">
+        <h1 class="section-title"> {{ this.showcase1.item.title}}</h1>
+        <p class="section-left">{{ this.showcase1.item.content}}</p>
+      </div>
+    </div>
+  </div>
+  <!-- {{ this.showcase1 | json }} -->
+</div>

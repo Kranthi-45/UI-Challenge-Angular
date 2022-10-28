@@ -1,0 +1,33 @@
+<div class="main-container">
+  <div id="top-section-main">
+    <div id="top-section-content">
+      <div class="left-container">
+        <h1>Look good without leaving your house</h1>
+        <p> Upbox is the easiest way to look your best without having to hunt for the perfect makeup combination. Our
+          stylists curate the latest trends and send them directly to your door every month.</p>
+        <a class="nav-link loginBtn">SIGN UP ></a>
+      </div>
+      <div>
+      </div>
+    </div>
+  </div>
+  <div id="feature-section">
+    <h1 class="feature-section-title">How it works ? <br /> <img class="underline" src='../../assets/underline.png'
+        alt='underlinepic' /> </h1>
+  </div>
+
+  <ng-container *ngFor="let item of showCaseData; let i = index">
+    <ng-container *ngIf="item.type == 'showcase1'; then showcase1Comp; else showcase2Comp">
+    </ng-container>
+    <ng-template #showcase1Comp>
+      <app-showcase1-container [showcase1]={item} [index]={i}></app-showcase1-container>
+    </ng-template>
+    <ng-template #showcase2Comp>
+      <app-showcase2-container [showcase2]={item} [index]={i}></app-showcase2-container>
+    </ng-template>
+  </ng-container>
+
+  <div class="tryIt">
+    <a class="loginBtn" style="text-align:center;">TRY IT FOR YOURSELF ></a>
+  </div>
+</div>

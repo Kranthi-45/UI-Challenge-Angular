@@ -1,0 +1,198 @@
+
+/* Desktop view */
+.showcase {
+  width: 80%;
+  margin: auto;
+  overflow: none;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+.num{
+  color: #EF8094;
+  font-size: 160px;
+  position: absolute;
+}
+.number2{
+  left: 740px;
+  top: 1050px;
+}
+.subColContiners {
+    float: left;
+    width: 48%;
+}
+.showcase{           
+    width: 80%;
+    margin: auto;
+}
+.showcase1pic {
+    width: 100%;
+}
+.feature-text {
+    padding-top: 300px;
+    padding-left: 50px;
+}
+.section-title {
+    width: 50%;
+    font-weight: 200;
+    line-height: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+.section-left {
+    width: 70%;
+}
+#showcase2-container {
+    padding-top: 60px;
+    background-color: #ffffff;
+    width: 100%;
+    clear: both;
+}
+#showcase2-container {
+  padding-top: 0px;
+  background-color: #ffffff;
+  width: 100%;
+  clear: both;
+}
+.showcase{
+  width: 80%;
+  margin: auto;
+  overflow: none;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+.feature-text{
+  padding-top: 0px;
+}
+.showcase1pic {
+  width: 60%;
+  margin: 0px -80px;
+  position: relative;
+}
+.showdowImage{
+  position: relative;
+  left: 260px;
+  width: 40%;
+  top: -40px;
+}
+
+/* Tab view - 769px*/
+
+@media only screen and (min-width: 765px) and (max-width: 980px) {
+
+  .feature-text {
+    padding-left: 210px;
+  }
+  .showdowImage  {
+    left: 350px;
+    top: -40px;
+  }
+  .showcase1pic {
+    width: 60%;
+    margin: 0px -30px;
+  }
+  .number2{
+    left: 300px;
+  }
+  .showdowImage{
+    width: 40%;
+  }
+.section-title {
+   width: 100%;
+}
+.subColContiners {
+  float: right;
+  width: 100%;
+}
+.showcase {
+  width: 80%;
+}
+.section-left {
+  width: 80%;
+  padding: 5px 10px 10px 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+}
+.section-title {
+  width: 50%;
+}
+.showcase{
+  margin-left: 150px;
+}
+}
+
+/* Mobile view - 376px*/
+@media only screen and (max-width: 767px){
+
+  .showcase{
+    margin-top: 255px;
+  }
+  .number2{
+    left: 70px;
+    top: 1600px;
+}
+  .showcase1pic{
+    width: 100%;
+    margin: -100px -20px;
+}
+  .showdowImage{
+    display: none;
+  }
+  .showcase1pic {
+    width: 120%;
+    margin: none;
+}
+  .showdowImage {
+     left: 0px;
+    top: -20px;
+}
+    .subColContiners {
+        float: left;
+        width: 100%;
+    }
+  .feature-text{
+    padding-top: 80px;
+    padding-left: 20px;
+}
+  .section-title{
+    width: 80%;
+    margin: 0px;
+    line-height: 1.0em;
+    font-weight: 350;
+  }
+  .section-left {
+    width: 100%;
+    margin: 0px;
+  }
+  #top-section-content{
+    width: 100%;
+    margin-top: 0px;
+}
+  .left-container{
+    width: 80%;
+    margin: auto;
+}
+  #top-section-content h1{
+    width: 100%;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 0px;
+    padding: 40px 0px 20px 0px;
+    margin-bottom: 0px;
+}
+  .loginBtn{
+    width: 55%;
+    margin: 35px 0px 20px 0px;
+}
+
+.feature-section-title{
+    width: 100%;
+}
+}

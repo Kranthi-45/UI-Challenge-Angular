@@ -1,0 +1,15 @@
+<div id="showcase2-container">
+  <div class="showcase">
+    <div class="subColContiners">
+      <div class="feature-text">
+        <h1 class="section-title">{{ this.showcase2.item.title}}</h1>
+        <p class="section-left">{{ this.showcase2.item.content}}</p>
+      </div>
+    </div>
+    <div class="subColContiners">
+      <img *ngIf="this.showcase2.item.showdowImage" class="showcase1pic showdowImage" src='{{this.showcase2.item.showdowImage}}' />
+      <img class="showcase1pic" src='{{this.showcase2.item.image}}' style="position: relative;">
+      <span class="num number{{ this.index.i + 1}}"> {{ this.index.i + 1}}</span>
+    </div>
+  </div>
+</div>
