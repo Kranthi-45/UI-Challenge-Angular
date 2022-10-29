@@ -8,10 +8,10 @@ To Run:
      -> npm install;   
      -> ng serve -o;   
 
-1) Views: Created the Upbox website in 3 different views as per given UI Figma wireframe view pixels; 
-        Desktop view; 
-        Tab view - 376px; 
-        Mobile view - 768px;  
+1) Views: Created the Upbox website in 3 different views as per given UI Figma wireframe view pixels;  
+        -> Desktop view;   
+        -> Tab view - 376px;   
+        -> Mobile view - 768px;   
 
 2) Folder/File structure:
     -created all components by encapsulating the (.ts,.html, .css files) under app component/folder .
