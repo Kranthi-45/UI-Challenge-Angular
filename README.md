@@ -3,8 +3,8 @@ Used Technologies versions:
      -> Node             -  14.16.0;   
      -> typescript       -  4.3.5;  
      
-To Run: 
-     -> Import the project in IDE & open the cmd/terminal in the appropriate directory where node_modules or src available & hit below commands;  
+To Run:    
+     -> Import the proj in IDE & open the cmd/terminal in the appropriate directory where node_modules/src available & hit below cmds;      
      -> npm install;   
      -> ng serve -o;   
 
