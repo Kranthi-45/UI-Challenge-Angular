@@ -5,8 +5,8 @@ Used Technologies versions:
      
 To Run:    
      -> Import the proj in IDE & open the cmd/terminal in the appropriate directory where node_modules/src available & hit below cmds.      
-     -> npm install;   
-     -> ng serve -o;   
+     -> npm install   
+     -> ng serve -o   
 
 1) Views: Created the Upbox website in 3 different views as per given UI Figma wireframe view pixels;  
         -> Desktop view;   
