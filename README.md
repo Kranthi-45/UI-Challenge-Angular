@@ -1,17 +1,17 @@
-Used Technologies versions:
-     Angular version  -> 12.1.1; 
-     Node             -> 14.16.0; 
-     typescript       -> 4.3.5; 
+Used Technologies versions: 
+     -> Angular version  -  12.1.1;  
+     -> Node             -  14.16.0;   
+     -> typescript       -  4.3.5;  
      
-To Run
-     -> Import the project in IDE & open the cmd/terminal in the appropriate directory where node_modules or src available & hit below commands;
-     -> npm install; 
-     -> ng serve -o; 
+To Run: 
+     -> Import the project in IDE & open the cmd/terminal in the appropriate directory where node_modules or src available & hit below commands;  
+     -> npm install;   
+     -> ng serve -o;   
 
-1) Views: Created the Upbox website in 3 different views as per given UI Figma wireframe view pixels
-        Desktop view
-        Tab view - 376px
-        Mobile view - 768px
+1) Views: Created the Upbox website in 3 different views as per given UI Figma wireframe view pixels; 
+        Desktop view; 
+        Tab view - 376px; 
+        Mobile view - 768px;  
 
 2) Folder/File structure:
     -created all components by encapsulating the (.ts,.html, .css files) under app component/folder .
