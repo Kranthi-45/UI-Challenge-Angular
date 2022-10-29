@@ -1,4 +1,4 @@
-Used Technologies versions: 
+Used Technologies versions:      
      -> Angular version  -  12.1.1;  
      -> Node             -  14.16.0;   
      -> typescript       -  4.3.5;  
